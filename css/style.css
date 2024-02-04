@@ -1,0 +1,81 @@
+
+
+body{
+  background-color: #E1F2F7;
+
+}
+
+.navbar{
+  width: 95%;
+  display: flex;
+  padding: 10px ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 2px;
+}
+
+.navbar .welcome{
+  font-family: sans-serif;
+  font-size: 40px;
+  color: black;
+}
+.hello{
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.name{
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.intro{
+  font-family: sans-serif;
+}
+.books{
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#summary{
+  display: flex;
+  
+}
+.think{
+  font-family: sans-serif;
+  width: 280px;
+  text-align: justify;
+  padding: 6px;
+  
+}
+.book-intro{
+  font-family: sans-serif;
+  width: 260px;
+  text-align: justify;
+  padding: 6px;
+  margin-right: 40px;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.image{
+  position: absolute;
+  left: 59%;
+  top: 40%;
+}
+img{
+  border-radius: 50%;
+}
+
+
+

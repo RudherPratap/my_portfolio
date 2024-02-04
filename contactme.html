@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contact">
+    <h1>Contact Us</h1>
+    <div class="contactbox">
+      <div class="left">
+      <form>
+        <div class="input">
+        <label for="f-name">First Name</label>
+        <input name="fn" id="f-name" type="text">
+        <br>
+        <label for="l-name">Last Name</label>
+        <input name="ln" id="l-name" type="text">
+        <br>
+        <label for="email">Email</label>
+        <input name="em" id="email" type="email">
+        <br>
+        <label for="country">Country</label>
+        <select name="count">
+          <option value="1">India</option>
+          <option value="1">Australia</option>
+          <option value="1">Singapore</option>
+          <option value="1">Japan</option>
+        </select>
+        <br>
+        <label>How many books do you read in a day</label>
+        <label>One
+          <input type="radio" value="1" name="quant">
+        </label>
+        
+        <label>Two
+          <input type="radio" value="2" name="quant">
+        </label>
+        
+        <label>Three
+          <input type="radio" value="3" name="quant">
+        </label>
+        
+        <label>Four
+          <input type="radio" value="4" name="quant">
+        </label>
+        <br>
+      
+        <label for="phone">Phone Number</label>
+        <small>Any format of number between 0-9</small>
+        <input type="tel" id="phone" name="phone" pattern=[0-9]{10} required />
+        <br>
+        <input type="submit">
+        </div>
+      </form>
+      </div>
+      <div class="right">
+        <p>Contact Information</p>
+        <br>
+        <p>Email:</p>
+        <p>dummy@gmail.com</p><br>
+        <br>
+        <br>
+
+        <p>Mobile No.:</p>
+        <p>+91-*****-*****</p><br>
+        <br>
+        <br>
+        <p>Address:</p>
+        <p>151,*****,******,Rajouri Modh,****</p>
+       
+      </div>
+    </div>
+  
+  </div>
+</body>
+</html>

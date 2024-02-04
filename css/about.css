@@ -1,0 +1,18 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.person{
+  background-color: beige;
+  margin-bottom: 20px;
+}
+.hobby{
+  background-color: beige;
+  
+  margin-bottom: 20px;
+}
+.prof{
+  background-color: beige;
+  margin-bottom: 20px;
+}

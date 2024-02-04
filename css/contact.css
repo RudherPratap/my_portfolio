@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #5EBEC4;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+.contact{
+  width: 80%;
+  margin: 100px;
+
+}
+h1{
+  margin-bottom: 10px;
+  color: white;
+}
+.contactbox{
+  background: white;
+  display: flex;
+}
+.ag{
+  height: 400*13;
+}
+.left{
+  flex-basis: 60%;
+  padding: 10px 50px;
+
+}
+.right{
+  flex-basis: 60%;
+  padding:30px;
+  background: #FECD45;
+
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 400px;
+
+}
